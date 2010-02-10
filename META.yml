@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Bot-NotSoBasicBot
-version:            0.01
+version:            0.02
 abstract:           Builts on Bot::BasicBot, adding a little extra functionality for convenience.
 author:
     - Michael Roberts <michael@vivtek.com>
@@ -9,7 +9,10 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Test::More:  0
+    Bot::BasicBot:    0
+    Config::Auto:     0
+    Data::Dumper:     0
+    Event::Schedule:  0
 no_index:
     directory:
         - t

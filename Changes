@@ -3,3 +3,7 @@ Revision history for Bot-NotSoBasicBot
 0.01    2010-02-01
 	Initial version
 
+0.02	2010-02-10
+	Fixed META.yml dependencies
+	Added an event queue using Event::Schedule
+

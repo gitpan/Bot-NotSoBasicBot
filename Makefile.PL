@@ -12,7 +12,10 @@ WriteMakefile(
       : ()),
     PL_FILES            => {},
     PREREQ_PM => {
-        'Test::More' => 0,
+        'Bot::BasicBot' => 0,
+	'Config::Auto' => 0,
+	'Event::Schedule' => 0,
+	'Data::Dumper' => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Bot-NotSoBasicBot-*' },
